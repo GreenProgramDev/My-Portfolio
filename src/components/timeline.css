@@ -1,0 +1,6 @@
+.containerTimeline{
+    width: 100vw;
+    height: calc(100vh - 5rem - 2.5rem);
+    background-color: blue;
+    
+}
