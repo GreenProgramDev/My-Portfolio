@@ -6,6 +6,9 @@ const Timeline = () =>{
         <>
         <section className="home">
             <div className='alignIdentify'>
+                <div className='radiuLogo'>
+                    <img className='imgNot' src="/img/not.png" alt="" />
+                </div>
                 <div className='logo'>
                     <h1 className='hiIm'>Hi, I'm </h1>
                     <div className='backgroundName'>
@@ -13,18 +16,19 @@ const Timeline = () =>{
                     </div>
                     <p className='skill'>Front-End Development</p>
                 </div>
-                <div className='radiuLogo'>
-                    <img className='imgNot' src="/img/not.png" alt="" />
-                </div>
+
             </div>
+                <div className='imgSid'>
+                    <img className='sid' src="/img/fd393960.png" alt="" />
+                </div>
 
         </section>
-        <section className="about">
+        <section id='about' className="about">
             <div className='teste'>
             <h1>About</h1>
             </div>
         </section>
-        <section className="contact">
+        <section id='contact' className="contact">
             <h1>Helo Contact</h1>
         </section>
         </>
