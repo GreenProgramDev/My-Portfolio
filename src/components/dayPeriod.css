@@ -43,7 +43,7 @@
   width: 45px;
   height: 45px;
   border-radius: 50% 50% 50% 0%;
-  background-color: #4c9beb;
+  background-color: white;
   display: inline-block;
   margin-left: -25px;
   z-index: 5;
@@ -53,7 +53,7 @@
   width: 65px;
   height: 65px;
   border-radius: 50% 50% 0% 50%;
-  background-color: #4c9beb;
+  background-color: white;
   display: inline-block;
   z-index: 5;
 }
@@ -62,7 +62,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50% 50% 50% 0%;
-  background-color: #4c9beb;
+  background-color: white;
   display: inline-block;
   margin-left: -20px;
   z-index: 5;
@@ -72,7 +72,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50% 50% 0% 50%;
-  background-color: #4c9beb;
+  background-color: white;
   display: inline-block;
   z-index: 5;
 }
@@ -86,6 +86,24 @@
   display: inline;
   position: absolute;
 }
+
+.moon{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 5rem;
+  bottom: -2rem;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 0px gray;
+}
+  
+ 
+
 
 .sunshine {
   animation: sunshines 2s infinite;

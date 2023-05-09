@@ -1,7 +1,9 @@
+import { ClimateNow } from '.'
 import './dayPeriod.css'
 import React, {useEffect, useState} from 'react'
 
 const DayPeriod = () => {
+
 
     const [timeOfDay, setTimeOfDay] = useState<string>("")
 
@@ -28,8 +30,6 @@ const DayPeriod = () => {
         <div className="cloud back">
           <span className="left-back"></span>
           <span className="right-back"></span>
-        </div>
-        <div>
         </div>
       </div>
         
