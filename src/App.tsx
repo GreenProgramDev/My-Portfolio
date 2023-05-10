@@ -1,8 +1,8 @@
 import './app.css'
-
-import { Timeline} from './components'
+import './components/headers.css'
+import { ClimateNow, Timeline} from './components'
 import DayPeriod from './components/DayPeriod'
-import headers from './components/headers.css'
+
 
 
 function App() {
@@ -28,9 +28,13 @@ function App() {
       </main>
 
       <footer className="containerFooter">
+        <div>
         {Date()}
-
+        </div>
+        <div>
         <p>product by Green Program Dev</p>
+        </div>
+
       </footer> 
     </>
 
