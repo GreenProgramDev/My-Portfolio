@@ -1,0 +1,16 @@
+.navebar{
+    padding: 3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10rem;
+    border-radius: 66px;
+    background: linear-gradient(45deg, #333356, #3d3d67);
+    box-shadow:  9px -9px 18px #303052,
+                 -9px 9px 18px #42426e;
+}
+
+.navebar a{
+    color: white;
+}
